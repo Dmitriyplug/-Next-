@@ -5,8 +5,9 @@ export default function HomePage() {
         <main>
             <h1>Главная</h1>
             <ul>
-                <li><Link href="/blog/nextjs-vvedenie">Введение в Next.js</Link></li>
-                <li><Link href="/blog/react-osnovy">Основы React</Link></li>
+                <li><Link href="/about">О нас</Link></li>
+                <li><Link href="/blog">Блог</Link></li>
+                <li><Link href="/courses">Курсы</Link></li>
             </ul>
         </main>
     );

@@ -1,19 +1,8 @@
-import Counter from './Counter';
-
-async function getInfo() {
-    return {
-        title: 'О проекте',
-        description: 'Данные получены на сервере без useEffect.'
-    };
-}
-
-export default async function AboutPage() {
-    const info = await getInfo();
+export default function AboutPage() {
     return (
-        <main>
-            <h1>{info.title}</h1>
-            <p>{info.description}</p>
-            <Counter />
-        </main>
+        <div>
+            <h1>О нас</h1>
+            <p>Мы изучаем маршрутизацию в Next.js.</p>
+        </div>
     );
 }
